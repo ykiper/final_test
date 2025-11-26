@@ -2,12 +2,13 @@
 
 
 class Soldier:
-    def __init__(self, personal_number: int, first_name: str, last_name: str, gender: str,
-                 distance_by_km: float, is_assigned: bool):
+    def __init__(self, personal_number: int, first_name: str, last_name: str, gender: str, city: str,
+                 distance_by_km: int, is_assigned: bool):
         self.personal_number = personal_number
         self.first_name = first_name
         self.last_name = last_name
         self.gender = gender
+        self.city = city
         self.distance_by_km = distance_by_km
         self.is_assigned = is_assigned
 
